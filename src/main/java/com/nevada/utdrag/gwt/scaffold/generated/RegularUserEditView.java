@@ -39,6 +39,9 @@ public class RegularUserEditView extends Composite implements RecordEditView<Reg
 	private static final Binder BINDER = GWT.create(Binder.class);
 	private static final DataBinder DATA_BINDER = GWT.create(DataBinder.class);
 
+	@UiField TextBox email;
+	@UiField TextBox name;
+	@UiField TextBox pw;
 	@UiField Button cancel;
 	@UiField Button save;
 	@UiField InlineLabel id;

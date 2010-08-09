@@ -25,6 +25,9 @@ public class RegularUserDetailsView extends Composite implements RecordDetailsVi
 	private static final Binder BINDER = GWT.create(Binder.class);
 
 	RegularUserRecord record;
+	@UiField SpanElement email;
+	@UiField SpanElement name;
+	@UiField SpanElement pw;
 	@UiField SpanElement idSpan;
 	@UiField SpanElement versionSpan;
 	@UiField HasClickHandlers edit;
@@ -64,6 +67,9 @@ public class RegularUserDetailsView extends Composite implements RecordDetailsVi
 
 	public void setValue(RegularUserRecord record) {
 		this.record = record;
+		email.setInnerText(String.valueOf(record.getEmail()));
+		name.setInnerText(String.valueOf(record.getName()));
+		pw.setInnerText(String.valueOf(record.getPw()));
 		idSpan.setInnerText(record.getId());
 		versionSpan.setInnerText(record.getVersion().toString());
 	}

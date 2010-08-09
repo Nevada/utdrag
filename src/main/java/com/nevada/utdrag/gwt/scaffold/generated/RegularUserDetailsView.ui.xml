@@ -33,6 +33,9 @@
     </div>
 
     <table class='{style.fields}'>
+      <tr><td><div class='{style.label}'>Email:</div></td><td><span ui:field='email'></span></td></tr>
+      <tr><td><div class='{style.label}'>Name:</div></td><td><span ui:field='name'></span></td></tr>
+      <tr><td><div class='{style.label}'>Pw:</div></td><td><span ui:field='pw'></span></td></tr>
     </table>
 
   <div class="{style.bar}">

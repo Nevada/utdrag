@@ -36,6 +36,21 @@ public class RegularUserListView extends AbstractRecordListView<RegularUserRecor
 		// TODO These should be <g:col> elements in a <g:table> in the ui.xml file
 
 		List<PropertyColumn<RegularUserRecord, ?>> columns = new ArrayList<PropertyColumn<RegularUserRecord, ?>>();
+		columns.add(new PropertyColumn<RegularUserRecord, java.lang.String>(RegularUserRecord.email, new AbstractRenderer<java.lang.String>() {
+      public String render(java.lang.String obj) {
+        return String.valueOf(obj);
+      }    
+}));  
+		columns.add(new PropertyColumn<RegularUserRecord, java.lang.String>(RegularUserRecord.name, new AbstractRenderer<java.lang.String>() {
+      public String render(java.lang.String obj) {
+        return String.valueOf(obj);
+      }    
+}));  
+		columns.add(new PropertyColumn<RegularUserRecord, java.lang.String>(RegularUserRecord.pw, new AbstractRenderer<java.lang.String>() {
+      public String render(java.lang.String obj) {
+        return String.valueOf(obj);
+      }    
+}));  
 		return columns;
 	}
 }

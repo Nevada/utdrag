@@ -15,6 +15,9 @@ privileged aspect RegularUserDataOnDemand_Roo_DataOnDemand {
     
     public RegularUser RegularUserDataOnDemand.getNewTransientRegularUser(int index) {
         com.nevada.utdrag.RegularUser obj = new com.nevada.utdrag.RegularUser();
+        obj.setEmail("email_" + index);
+        obj.setName("name_" + index);
+        obj.setPw("pw_" + index);
         return obj;
     }
     

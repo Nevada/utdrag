@@ -39,6 +39,9 @@
     <div ui:field='errors' style='background-color: red; '></div>
 
     <table class="{style.fields}">
+      <tr><td><div class='{style.label}'>Email:</div></td><td><g:TextBox ui:field='email'></g:TextBox></td></tr>
+      <tr><td><div class='{style.label}'>Name:</div></td><td><g:TextBox ui:field='name'></g:TextBox></td></tr>
+      <tr><td><div class='{style.label}'>Pw:</div></td><td><g:TextBox ui:field='pw'></g:TextBox></td></tr>
     </table>
 
     <div class='{style.bar}'>
