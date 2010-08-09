@@ -12,7 +12,7 @@ import com.nevada.utdrag.gwt.ui.ListActivitiesMapper;
 
 /**
  * Finds the activity to run for a particular {@link ScaffoldPlace} in the top
- * half of the {@link ScaffoldShell}.
+ * half of the {@link Data}.
  */
 public final class ScaffoldMasterActivities implements ActivityMapper<ApplicationPlace> {
 	private final ListActivitiesMapper listActivities;

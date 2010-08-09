@@ -12,7 +12,7 @@ import com.nevada.utdrag.gwt.scaffold.place.RegularUserScaffoldPlace;
 
 /**
  * Finds the activity to run for a particular {@link ScaffoldPlace} in the bottom
- * half of the {@link ScaffoldShell}.
+ * half of the {@link Data}.
  */
 public final class ScaffoldDetailsActivities implements ActivityMapper<ApplicationPlace> {
 	private final ActivityMapper<RegularUserScaffoldPlace> regularUserActivities;
