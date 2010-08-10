@@ -9,6 +9,10 @@ import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DeckPanel;
 import com.google.gwt.user.client.ui.Widget;
+import com.nevada.utdrag.gwt.in.In;
+import com.nevada.utdrag.gwt.in.InTop;
+import com.nevada.utdrag.gwt.out.Login;
+import com.nevada.utdrag.gwt.out.Out;
 
 public class App extends Composite {
 

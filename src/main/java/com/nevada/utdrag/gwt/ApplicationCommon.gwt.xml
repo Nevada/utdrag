@@ -11,5 +11,7 @@
   <source path='place'/>
   <source path='ui'/>
   <source path='out'/>
+  <source path='in'/>
+  <source path='images'/>
   
 </module>
