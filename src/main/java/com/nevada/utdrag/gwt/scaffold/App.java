@@ -17,10 +17,10 @@ public class App extends Composite {
 	interface AppUiBinder extends UiBinder<Widget, App> {
 	}
 
-//	@UiField DeckPanel main;
-//	OutShell os = new OutShell(); // döp om till Out
-//	InShell is = new InShell(); // döp om till In
 	@UiField Button showData;
+	@UiField DeckPanel main;
+//	Out out = new Out();
+	In in = new In();
 	
 	private Listener listener;
 	
@@ -32,8 +32,8 @@ public class App extends Composite {
 		this.listener = listener;
 	}
 	
-//	final int OUT = 0;
-//	final int IN = 1;
+	final int OUT = 0;
+	final int IN = 1;
 	
 	public App() {
 		initWidget(uiBinder.createAndBindUi(this));
@@ -56,9 +56,9 @@ public class App extends Composite {
 //		});
 //
 //		main.add(os);
-//		main.add(is);
-//		main.setAnimationEnabled(false);
-//		main.showWidget(OUT);
+		main.add(in);
+		main.setAnimationEnabled(false);
+		main.showWidget(OUT);
 	}
 
 	@UiHandler("showData")

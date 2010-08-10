@@ -116,8 +116,8 @@
 	</ui:style>
 
 	<g:DockLayoutPanel unit='EM'>
-		<g:north size="3">
-			<g:Button ui:field="showApp" styleName='{style.centeredButton}'>show application</g:Button>
+		<g:north size="2">
+			<g:Button ui:field="showApp">app</g:Button>
 		</g:north>
 		<g:north size='6'>
 			<g:HTML styleName='{style.centered}'>

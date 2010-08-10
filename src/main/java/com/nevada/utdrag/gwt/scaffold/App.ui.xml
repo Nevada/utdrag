@@ -2,12 +2,9 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style src="MyUi.css" />
-
+		
 	<g:VerticalPanel>
-		<g:Label>app</g:Label>
 		<g:Button ui:field="showData">data</g:Button>
+		<g:DeckPanel ui:field="main" styleName='{style.bred}' />
 	</g:VerticalPanel>
-	<!--
-	<g:DeckPanel ui:field="main" styleName='{style.bred}' />
-	-->
 </ui:UiBinder> 
