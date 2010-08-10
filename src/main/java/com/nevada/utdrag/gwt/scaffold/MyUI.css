@@ -1,8 +1,6 @@
 @CHARSET "ISO-8859-1";
 
 @def contentWidth 950px;
-
-	
 .bred {
 	width: 100%;
 }
@@ -19,8 +17,6 @@
 	margin-right: auto;
 	margin-left: auto;
 }
-
-
 
 h1,h2,h3 {
 	color: #72BA00;
@@ -129,49 +125,47 @@ div.header,div.footer {
 	background-color: #f7c4b6;
 }
 
-		.title {
-			font-size: 14px;
-			color: rgb(122, 179, 36);
-			float: left;
-			margin-top: 40px;
-			margin-left: 20px;
-		}
-		
-		.top {
-			margin-top: 1.5em;
-		}
-		
+.title {
+	font-size: 14px;
+	color: rgb(122, 179, 36);
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+}
 
-		
-		.buttonDiv {
-			text-align: right;
-		}
-		
-		a.button:link {
-			background-color: #454545;
-			color: #FFFFFF;
-		}
-		
-		a.button:visited {
-			background-color: #454545;
-		}
-		
-		a.button:hover {
-			background-color: #a1eb18;
-			color: #FFFFFF;
-		}
-		
-		a.button:active {
-			background-color: #a1eb18;
-		}
-		
-		.button {
-			font-weight: bold;
-			text-decoration: none;
-			margin-left: 10px;
-			padding: 7px;
-			-moz-border-radius: 10px;
-			-webkit-border-radius: 10px;
-			float: right;
-			margin-top: 35px;
-		}
+.top {
+	margin-top: 1.5em;
+}
+
+.buttonDiv {
+	text-align: right;
+}
+
+a.button:link {
+	background-color: #454545;
+	color: #FFFFFF;
+}
+
+a.button:visited {
+	background-color: #454545;
+}
+
+a.button:hover {
+	background-color: #a1eb18;
+	color: #FFFFFF;
+}
+
+a.button:active {
+	background-color: #a1eb18;
+}
+
+.button {
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 7px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	float: right;
+	margin-top: 35px;
+}
