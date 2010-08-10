@@ -1,0 +1,53 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<ui:style src="../scaffold/MyUi.css" />
+		
+	<ui:style field='style2' type='com.nevada.utdrag.gwt.out.Create.MyStyle'>
+		.green { background-color: #baf7b6;}
+		.red { background-color: #f7c4b6;}
+		.greenText { color: green;}
+		.redText { color: red;}
+  	</ui:style>
+
+	<ui:with field='images' type='com.nevada.utdrag.gwt.images.Resources' />
+
+	<g:HTMLPanel>
+
+		<div class='{style.createContainer}'>
+			<p>
+				Skapa konto på
+				<g:Image resource="{images.logo}" />
+			</p>
+
+			<g:HTMLPanel styleName='{style.check}' ui:field="usernameField">
+				Användarnamn:
+				<g:Label styleName='{style.fl2}' text="&nbsp;" ui:field="usernameLabel"></g:Label>
+				<g:TextBox styleName='{style.fl}' ui:field="username" />
+			</g:HTMLPanel>
+			<g:HTMLPanel styleName="{style.check}" ui:field="passField1">
+				Lösenord:
+				<g:Label styleName='{style.fl2}' text="&nbsp;" ui:field="passLabel1"></g:Label>
+				<g:PasswordTextBox styleName='{style.fl}'
+					ui:field="pass1" />
+			</g:HTMLPanel>
+			<g:HTMLPanel styleName="{style.check}" ui:field="passField2">
+				Lösenord (igen):
+				<g:Label styleName='{style.fl2}' text="&nbsp;" ui:field="passLabel2"></g:Label>
+				<g:PasswordTextBox styleName='{style.fl}' ui:field="pass2" />
+			</g:HTMLPanel>
+			<g:HTMLPanel styleName="{style.check}" ui:field="emailField">
+				E-post:
+				<g:Label styleName='{style.fl2}' text="&nbsp;" ui:field="emailLabel"></g:Label>
+				<g:TextBox styleName='{style.fl}' ui:field="email" />
+			</g:HTMLPanel>
+			<p>
+				<g:Button text="Skapa konto!" ui:field="ok" />
+				<g:Button styleName='{style.fl}' text="Avbryt" ui:field="cancel" />
+
+			</p>
+		</div>
+	</g:HTMLPanel>
+
+</ui:UiBinder> 
