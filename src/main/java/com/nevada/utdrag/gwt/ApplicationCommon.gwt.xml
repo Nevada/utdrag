@@ -10,4 +10,6 @@
   <source path='request'/>
   <source path='place'/>
   <source path='ui'/>
+  <source path='out'/>
+  
 </module>

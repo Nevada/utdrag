@@ -1,0 +1,43 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Sekretesspolicy</h1>
+		<p>Det är viktigt för oss på utdraget.se är att användarnas data
+			används på ett
+			ansvarsfullt sätt och inte hamnar i orätta händer. Nedan beskrivs vår policy för
+			hantering av användarnas data.</p>
+		<br />
+		<p>All kommunikation med utdraget.se är krypterad. Denna kryptering är
+			av samma
+			typ som de stora bankerna använder och gör att du kan känna dig trygg
+			med att
+			ingen avlyssnar data på vägen mellan din dator och utdraget.se.</p>
+		<br />
+		<p>Vi kommer aldrig att sälja eller på annat sätt överlåta din
+			information till
+			tredjepart utan ditt godkännande.</p>
+		<br />
+		<p>Om du vill vara anonym på utdraget.se så ska du alltid kunna vara
+			det. Vi
+			lagrar aldrig IP-adresser kopplat till konton, och tvingar ingen att ange
+			något
+			som kan identifiera personen.</p>
+		<br />
+		<p>Vi läser aldrig våra användares transaktioner, förutom i specifika
+			fall då vi
+			behöver det för att felsöka ett problem. Transaktionerna är lagrade
+			fristående
+			från användarkonton, så när vi tittar på transaktioner vid felsökning ser
+			vi
+			aldrig vilken användare de tillhör.</p>
+		<br />
+		<p>Du kan alltid radera all data på ditt konto under
+			inställnings-sidan, om du
+			inte längre har förtroende för vår hantering av den.</p>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

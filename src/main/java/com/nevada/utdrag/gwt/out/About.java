@@ -1,4 +1,4 @@
-package com.nevada.utdrag.gwt.scaffold.out;
+package com.nevada.utdrag.gwt.out;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;

@@ -7,11 +7,11 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DeckPanel;
 import com.google.gwt.user.client.ui.ScrollPanel;
 import com.google.gwt.user.client.ui.Widget;
-import com.nevada.utdrag.gwt.scaffold.out.About;
-import com.nevada.utdrag.gwt.scaffold.out.Blogg;
-import com.nevada.utdrag.gwt.scaffold.out.How;
-import com.nevada.utdrag.gwt.scaffold.out.Policy;
-import com.nevada.utdrag.gwt.scaffold.out.Video;
+import com.nevada.utdrag.gwt.out.About;
+import com.nevada.utdrag.gwt.out.Blogg;
+import com.nevada.utdrag.gwt.out.How;
+import com.nevada.utdrag.gwt.out.Policy;
+import com.nevada.utdrag.gwt.out.Video;
 
 public class Out extends Composite {
 

@@ -1,0 +1,76 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Så funkar det</h1>
+		<h3>Utdraget.se - gratis och enkelt</h3>
+		<p>Vårt mål är att vara sveriges enklaste och smidigaste verktyg för
+			att överblicka privatekonomin. Dessutom är allt du gör på utdraget.se helt gratis!
+			Att skaffa ett konto, mata in och kategorisera ett helt års
+			spenderande, få diagram över ditt spenderande samt att skapa en budget för att ta kontroll
+			över dina utgifter går allt på några minuter!
+		</p>
+		<br />
+		<h3>Inmatning och kategorisering</h3>
+		<p>Grunden i Utdraget.se är den automatiska inmatningen och
+			kategoriseringen av transaktioner. Du markerar transaktionerna i kontoutdraget på din internetbank
+			och klistrar in dem på utdraget.se. Transaktionerna läses in och de
+			allra flesta kategoriseras automatiskt med hjälp av dina och andra användares tidigare
+			kategoriseringar.
+		</p>
+		<img src="https://utdraget.se/media/img/sfd_kategorisering.jpg"
+			style="margin-top: 12px; margin-bottom: 12px;" />
+		<br />
+		<p>Tack vare att de flesta transaktionerna kategoriseras automatiskt
+			brukar det
+			inte ta mer än några få minuter att mata in ett helt års konsumtion! </p>
+		<br />
+		<h3>Realtidssökning och redigering av transaktioner</h3>
+		<p>
+			Efter inmatning kan du lätta hitta bland dina transaktioner genom att
+			filtrera dem på datumintervall, fritext, kategori, konto eller
+			beloppintervall.
+			Sökresultaten dyker upp ögonblickligen samtidigt som du skriver. För att
+			redigera en transaktion klickar du bara på den.
+			<img src="https://utdraget.se/media/img/sfd_transaktioner.jpg"
+				style="margin-top: 12px; margin-bottom: 12px;" />
+		</p>
+		<br />
+		<h3>Interaktiva diagram</h3>
+		<p>
+			Den interaktiva avgränsningen på datum, transaktionsnamn osv.
+			fungerar också
+			på diagramsidan. Du kan visualisera dina spenderingsvanor som cirkel,
+			stapel och
+			linjediagram. Det är lätt att följa hur du spenderar inom olika kategorier över
+			tiden, och tack vare den interaktiva filtreringen kan du snabbt
+			urskilja
+			tidsperioder, ställa ett antal kategorier mot varandra för jämförelse osv.
+			Möjligheterna är oändliga!
+			<img src="https://utdraget.se/media/img/sfd_diagram1.jpg" style="margin-top: 12px; margin-bottom: 12px;" />
+			<img src="https://utdraget.se/media/img/sfd_diagram2.jpg" style="margin-top: 12px; margin-bottom: 12px;" />
+		</p>
+		<br />
+		<h3>Sveriges snabbaste och enklaste budget?</h3>
+		<p>Vår nylanserade budgetfunktion kommer du igång med på under en
+			minut! När du
+			går in på budgetsidan har vi redan budgeterat för de olika kategorier du
+			spenderat inom. Den grundläggande budgeten vi har skapat åt dig är
+			baserad på
+			din genomsnittliga konsumtion inom varje kategori de senaste 6
+			månaderna. Gå
+			igenom kategorierna och justera budgeten som du vill ha den. </p>
+		<img src="https://utdraget.se/media/img/sfd_budget.jpg" style="margin-top: 12px; margin-bottom: 12px;" />
+		<br />
+		<p>Vissa kategoriser är kanske väldigt små eller inte så ofta
+			återkommande.
+			Dessa klumpar du mycket enkelt ihop i en övrigt-kategori, så att du kan
+			fokusera
+			din budget på de stora och ofta återkommande utgiftskategorierna i din
+			privatekonomi. </p>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 
