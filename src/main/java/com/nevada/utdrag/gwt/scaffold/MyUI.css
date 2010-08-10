@@ -47,7 +47,7 @@ div,td,th {
 .container {
 	margin: 10px;
 	width: 300px;
-	height: 500px;
+	height: 100%;
 	border: 1px solid gray;
 	line-height: 150%;
 }
@@ -171,3 +171,9 @@ a.button:active {
 	float: right;
 	margin-top: 35px;
 }
+
+ .body {
+    line-height: 150%;
+    padding: 20px 40px 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+ }

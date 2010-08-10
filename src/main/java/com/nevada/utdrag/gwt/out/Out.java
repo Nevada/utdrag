@@ -1,13 +1,16 @@
 package com.nevada.utdrag.gwt.out;
 
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
+import com.google.gwt.user.client.History;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DeckPanel;
+import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.ScrollPanel;
 import com.google.gwt.user.client.ui.Widget;
-import com.nevada.utdrag.gwt.out.Top.Listener;
 
 public class Out extends Composite {
 
@@ -21,7 +24,7 @@ public class Out extends Composite {
 	@UiField Top top;
 	public @UiField Login login;
 	@UiField ScrollPanel scroller;
-	
+
 	final int VIDEO = 0;
 	final int HOW = 1;
 	final int BLOGG= 2;
@@ -30,27 +33,54 @@ public class Out extends Composite {
 
 	public Out() {
 		initWidget(uiBinder.createAndBindUi(this));
-		
+
 		//scroller.setAlwaysShowScrollBars(true);
+
+		History.newItem("home");
 
 		top.setListener(new Top.Listener() {
 			public void onLogoClicked() {
-				main.showWidget(VIDEO);
+				History.newItem("home");
 			}
 			public void onHowClicked() {
-				main.showWidget(HOW);
+				History.newItem("how");
 			}
 			public void onBloggClicked() {
-				main.showWidget(BLOGG);
+				History.newItem("blogg");
 			}
 			public void onPolicyClicked() {
-				main.showWidget(POLICY);
+				History.newItem("policy");
 			}
 			public void onAboutClicked() {
-				main.showWidget(ABOUT);
+				History.newItem("about");
 			}
 		});
 
+		History.addValueChangeHandler(new ValueChangeHandler<String>() {
+			public void onValueChange(ValueChangeEvent<String> event) {
+				String historyToken = event.getValue();
+				
+				if(historyToken.equals("home")) {
+					main.showWidget(VIDEO);
+				}
+				else if(historyToken.equals("how")) {
+					main.showWidget(HOW);
+				} 
+				else if (historyToken.equals("blogg")) {
+					main.showWidget(BLOGG);
+				} 
+				else if (historyToken.equals("policy")) {
+					main.showWidget(POLICY);
+				}
+				else if (historyToken.equals("about")) {
+					main.showWidget(ABOUT);
+				}
+				else {
+					main.showWidget(VIDEO);
+				}
+			}
+		});
+		
 		Video v = new Video();
 		How h = new How();
 		Blogg b = new Blogg();
@@ -61,7 +91,7 @@ public class Out extends Composite {
 		main.add(b);
 		main.add(p);
 		main.add(a);
-		
+
 		main.setAnimationEnabled(false);
 		main.showWidget(VIDEO);
 	}

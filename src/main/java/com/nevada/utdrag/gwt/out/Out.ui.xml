@@ -4,16 +4,17 @@
 
 	<ui:style src="../scaffold/MyUi.css" />
 		
-	<g:VerticalPanel styleName='{style.bred}'>
-		<g:VerticalPanel addStyleNames='{style.centered}'>
-			<my:Top ui:field="top" />
-			<g:HorizontalPanel>
-				<my:Login ui:field="login" />
-				<g:ScrollPanel ui:field="scroller">
-					<g:DeckPanel ui:field="main" styleName='{style.container}' />
-				</g:ScrollPanel>
-			</g:HorizontalPanel>
+		<g:VerticalPanel styleName='{style.bred}'>
+			<g:VerticalPanel addStyleNames='{style.centered}'>
+				<my:Top ui:field="top" />
+				<g:HorizontalPanel>
+					<my:Login ui:field="login" />
+					<g:ScrollPanel ui:field="scroller">
+						<g:DeckPanel ui:field="main" styleName='{style.container}' />
+					</g:ScrollPanel>
+				</g:HorizontalPanel>
+					<my:How />
+			</g:VerticalPanel>
 		</g:VerticalPanel>
-	</g:VerticalPanel>
 
 </ui:UiBinder>
