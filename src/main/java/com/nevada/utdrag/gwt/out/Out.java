@@ -22,7 +22,7 @@ public class Out extends Composite {
 	public @UiField Login login;
 	@UiField ScrollPanel scroller;
 	
-	final int LOGO = 0;
+	final int VIDEO = 0;
 	final int HOW = 1;
 	final int BLOGG= 2;
 	final int POLICY = 3;
@@ -31,11 +31,11 @@ public class Out extends Composite {
 	public Out() {
 		initWidget(uiBinder.createAndBindUi(this));
 		
-		scroller.setAlwaysShowScrollBars(true);
+		//scroller.setAlwaysShowScrollBars(true);
 
 		top.setListener(new Top.Listener() {
 			public void onLogoClicked() {
-				main.showWidget(LOGO);
+				main.showWidget(VIDEO);
 			}
 			public void onHowClicked() {
 				main.showWidget(HOW);
@@ -63,7 +63,7 @@ public class Out extends Composite {
 		main.add(a);
 		
 		main.setAnimationEnabled(false);
-		main.showWidget(LOGO);
+		main.showWidget(VIDEO);
 	}
 
 }

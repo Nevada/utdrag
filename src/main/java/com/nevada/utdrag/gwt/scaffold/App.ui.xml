@@ -4,7 +4,7 @@
 	<ui:style src="MyUi.css" />
 		
 	<g:VerticalPanel>
-		<g:Button ui:field="showData">data</g:Button>
 		<g:DeckPanel ui:field="main" styleName='{style.bred}' />
+		<g:Button ui:field="showData">data</g:Button>
 	</g:VerticalPanel>
 </ui:UiBinder> 

@@ -3,17 +3,17 @@
 	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:my='urn:import:com.nevada.utdrag.gwt.out'>
 
 	<ui:style src="../scaffold/MyUi.css" />
-
-	<g:ScrollPanel ui:field="scroller">
-		<g:VerticalPanel styleName='{style.bred}'>
-			<g:VerticalPanel styleName='{style.centered}'>
-				<my:Top ui:field="top" />
-				<g:HorizontalPanel>
-					<my:Login ui:field="login"/>
+		
+	<g:VerticalPanel styleName='{style.bred}'>
+		<g:VerticalPanel addStyleNames='{style.centered}'>
+			<my:Top ui:field="top" />
+			<g:HorizontalPanel>
+				<my:Login ui:field="login" />
+				<g:ScrollPanel ui:field="scroller">
 					<g:DeckPanel ui:field="main" styleName='{style.container}' />
-				</g:HorizontalPanel>
-			</g:VerticalPanel>
+				</g:ScrollPanel>
+			</g:HorizontalPanel>
 		</g:VerticalPanel>
-	</g:ScrollPanel>
+	</g:VerticalPanel>
 
 </ui:UiBinder>

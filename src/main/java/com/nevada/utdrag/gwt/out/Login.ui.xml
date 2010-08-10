@@ -41,6 +41,35 @@
 			</span>
 
 		</div>
+
+		<div>
+			<h2>Utdraget.se - en helt gratis tjänst!</h2>
+			Här kan du på några få minuter få månader av dina inköp automatiskt	kategoriserade, 
+			för att sedan studera dina konsumtionsvanor i enkla diagram.
+			Du kan även på några få sekunder skapa en budget baserad på ett genomsnitt av dina 
+			tidigare utgifter.
+		</div>
+		<div>
+			<h2>Tipsa om utdraget.se</h2>
+				<span style="float: left;">
+					Tipsa dina vänner via dessa sajter:
+					<a
+						href="http://twitter.com/home/?status=F%C3%A5r%20koll%20p%C3%A5%20min%20ekonomi%20med%20http://utdraget.se">
+						<img src="https://utdraget.se/media/img/favicon_twitter.png"/>
+					</a>
+					<a
+						href="http://bloggy.se/home?link=http://utdraget.se&amp;status=F%C3%A5r%20koll%20p%C3%A5%20min%20ekonomi%20med%20http://utdraget.se">
+						<img src="https://utdraget.se/media/img/favicon_bloggy.png"/>
+					</a>
+					<a href="http://www.facebook.com/share.php?u=http://utdraget.se">
+						<img src="https://utdraget.se/media/img/favicon_fb.png"/>
+					</a>
+					<a
+						href="http://www.pusha.se/posta?url=http://utdraget.se&amp;title=F%C3%A5r%20koll%20p%C3%A5%20min%20ekonomi%20med%20http://utdraget.se">
+						<img src="https://utdraget.se/media/img/favicon_pusha.png" />
+					</a>
+				</span>
+		</div>
 	</g:HTMLPanel>
 
 </ui:UiBinder> 
