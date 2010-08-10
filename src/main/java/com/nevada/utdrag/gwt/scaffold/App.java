@@ -19,7 +19,7 @@ public class App extends Composite {
 
 	@UiField Button showData;
 	@UiField DeckPanel main;
-//	Out out = new Out();
+	Out out = new Out();
 	In in = new In();
 	
 	private Listener listener;
@@ -45,17 +45,17 @@ public class App extends Composite {
 //			}
 //		});
 //		
-//		is.top.setListener(new InTop.Listener() {
-//			public void onLogoutClicked() {
-//				main.showWidget(OUT);
-//			}
-//			public void onGraphClicked() {
-//			}
-//			public void onInputClicked() {				
-//			}
-//		});
-//
-//		main.add(os);
+		in.top.setListener(new InTop.Listener() {
+			public void onLogoutClicked() {
+				main.showWidget(OUT);
+			}
+			public void onGraphClicked() {
+			}
+			public void onInputClicked() {				
+			}
+		});
+
+		main.add(out);
 		main.add(in);
 		main.setAnimationEnabled(false);
 		main.showWidget(OUT);

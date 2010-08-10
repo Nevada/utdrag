@@ -62,7 +62,7 @@ public class Out extends Composite {
 //		main.add(a);
 		
 		main.setAnimationEnabled(false);
-		main.showWidget(LOGO);
+//		main.showWidget(LOGO);
 	}
 
 }

@@ -4,7 +4,7 @@
 
 	<ui:style src="MyUi.css" />
 		
-	<ui:image field="front_logo" />
+	<ui:image field="front_logo"></ui:image>
 
 	<ui:style field='images'>
 		@sprite .front_logo {
@@ -17,17 +17,20 @@
 		<div class='{style.top}'>
 
 			<div class='{style.buttonDiv}'>
-				<div class='{images.front_logo}' href='javascript:;'></div>
+				<g:Anchor styleName='{images.front_logo}' href='javascript:;'
+					ui:field="logo"></g:Anchor>
 				<div class='{style.title}'>Sveriges största och enklaste "utdragstjänst"</div>
 			</div>
 
 			<div class='{style.buttonDiv}'>
 				<g:Anchor styleName='{style.button}' href='javascript:;'
-					ui:field='logout'>logga ut</g:Anchor>
+					ui:field="about">om oss</g:Anchor>
 				<g:Anchor styleName='{style.button}' href='javascript:;'
-					ui:field="graph">diagram</g:Anchor>
+					ui:field="policy">sekresspolicy</g:Anchor>
 				<g:Anchor styleName='{style.button}' href='javascript:;'
-					ui:field="input">inmatning</g:Anchor>
+					ui:field='blogg'>blogg</g:Anchor>
+				<g:Anchor styleName='{style.button}' href='javascript:;'
+					ui:field='how'>så funkar det</g:Anchor>
 			</div>
 
 		</div>

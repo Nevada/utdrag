@@ -1,0 +1,46 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<ui:style src="MyUi.css" />
+		
+	<ui:with field='images' type='com.nevada.utdrag.gwt.scaffold.Resources' />
+
+	<g:HTMLPanel>
+
+		<div class='{style.container2}'>
+			<g:Label styleName='{style.fl}' ui:field="error"></g:Label>
+			<h2>Logga in</h2>
+			<table border="0" cellpadding="0" cellspacing="3">
+				<tr>
+					<td width="120">Användarnamn:</td>
+					<td>
+						<g:TextBox styleName='{style.fl}' ui:field="user" />
+					</td>
+				</tr>
+				<tr>
+					<td>Lösenord:</td>
+					<td>
+						<g:PasswordTextBox styleName='{style.fl}'
+							ui:field="pass" />
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<g:Button text="logga in" addStyleNames='{style.fl}'
+							ui:field="login" />
+					</td>
+				</tr>
+			</table>
+			<br />
+			<span style="float: left;">
+				<g:Anchor href='javascript:;' ui:field="create">Skapa konto</g:Anchor>
+			</span>
+			<span style="float: right;">
+				<g:Anchor href='javascript:;'>Glömt lösenord?</g:Anchor>
+			</span>
+
+		</div>
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

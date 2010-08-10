@@ -7,10 +7,9 @@
 	<g:ScrollPanel ui:field="scroller">
 		<g:VerticalPanel styleName='{style.bred}'>
 			<g:VerticalPanel styleName='{style.centered}'>
-				<g:Label>ej</g:Label>
-				<!-- <my:Top ui:field="top" /> -->
+				<my:Top ui:field="top" />
 				<g:HorizontalPanel>
-					<!--<my:Login ui:field="login"/> -->
+					<my:Login ui:field="login"/>
 					<g:DeckPanel ui:field="main" styleName='{style.container}' />
 				</g:HorizontalPanel>
 			</g:VerticalPanel>
