@@ -91,6 +91,16 @@
         <load-on-startup>0</load-on-startup>
     </servlet>
     
+      <!-- My Servlet -->
+  <servlet>
+    <servlet-name>userServiceImpl</servlet-name>
+    <servlet-class>com.nevada.utdrag.gwt.rpc.UserServiceImpl</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>userServiceImpl</servlet-name>
+    <url-pattern>/applicationScaffold/userService</url-pattern>
+  </servlet-mapping>
     
     
     <servlet>

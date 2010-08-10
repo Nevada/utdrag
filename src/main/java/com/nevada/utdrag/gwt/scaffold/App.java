@@ -38,13 +38,13 @@ public class App extends Composite {
 	public App() {
 		initWidget(uiBinder.createAndBindUi(this));
 
-//		os.login.setListener(new Login.Listener() {
-//			public void onLoginClicked(String user) {
-//				main.showWidget(IN);
-//				is.setUser(user);
-//			}
-//		});
-//		
+		out.login.setListener(new Login.Listener() {
+			public void onLoginClicked(String user) {
+				main.showWidget(IN);
+				in.setUser(user);
+			}
+		});
+		
 		in.top.setListener(new InTop.Listener() {
 			public void onLogoutClicked() {
 				main.showWidget(OUT);

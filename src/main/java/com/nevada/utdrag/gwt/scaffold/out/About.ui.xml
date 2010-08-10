@@ -1,0 +1,102 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Om oss</h1>
+		<p>Utdraget.se såg dagens ljus för första gången den 23 januari 2009.
+			Då ägde 24
+			hour business camp rum för första gången, och utdraget.se var projektet
+			som
+			Petter Arvidsson, Edward Tjörnhammar och Micael Widell började bygga på. 24
+			hour
+			business camp går ut på att förverkliga en affärsidé från scratch på 24
+			timmar.
+			Det behöver därmed knappast nämnas att den första versionen av sajten
+			var ganska
+			bristfällig. Vi fick dock otroligt positiv respons på idén och sajten, så vi
+			bestämde oss för att utveckla konceptet vidare. </p>
+		<br />
+		<p>Idag har vi stöd för de allra flesta bankerna i Sverige, och snart
+			även stöd
+			för alla former av betalkort som är vanliga. Vi hanterar hundratusentals
+			transaktioner och antalet återvändande besökare ökar stadigt! </p>
+		<br />
+				<p>Utdraget.se såg dagens ljus för första gången den 23 januari 2009.
+			Då ägde 24
+			hour business camp rum för första gången, och utdraget.se var projektet
+			som
+			Petter Arvidsson, Edward Tjörnhammar och Micael Widell började bygga på. 24
+			hour
+			business camp går ut på att förverkliga en affärsidé från scratch på 24
+			timmar.
+			Det behöver därmed knappast nämnas att den första versionen av sajten
+			var ganska
+			bristfällig. Vi fick dock otroligt positiv respons på idén och sajten, så vi
+			bestämde oss för att utveckla konceptet vidare. </p>
+		<br />
+		<p>Idag har vi stöd för de allra flesta bankerna i Sverige, och snart
+			även stöd
+			för alla former av betalkort som är vanliga. Vi hanterar hundratusentals
+			transaktioner och antalet återvändande besökare ökar stadigt! </p>
+		<br />
+				<p>Utdraget.se såg dagens ljus för första gången den 23 januari 2009.
+			Då ägde 24
+			hour business camp rum för första gången, och utdraget.se var projektet
+			som
+			Petter Arvidsson, Edward Tjörnhammar och Micael Widell började bygga på. 24
+			hour
+			business camp går ut på att förverkliga en affärsidé från scratch på 24
+			timmar.
+			Det behöver därmed knappast nämnas att den första versionen av sajten
+			var ganska
+			bristfällig. Vi fick dock otroligt positiv respons på idén och sajten, så vi
+			bestämde oss för att utveckla konceptet vidare. </p>
+		<br />
+		<p>Idag har vi stöd för de allra flesta bankerna i Sverige, och snart
+			även stöd
+			för alla former av betalkort som är vanliga. Vi hanterar hundratusentals
+			transaktioner och antalet återvändande besökare ökar stadigt! </p>
+		<br />
+		<h2>Teamet</h2>
+		-
+		<b>Petter Arvidsson</b>
+		, systemutveckling (
+		<a href="https://utdraget.se/om-oss/">e-post</a>
+		,
+		<a href="http://twitter.com/petterarvidsson">twitter</a>
+		)
+		<br />
+		-
+		<b>Olof Sköld</b>
+		, PR och affärsutveckling (
+		<a href="mailto:olof@utdraget.se">e-post</a>
+		)
+		<br />
+		-
+		<b>Edward Tjörnhammar</b>
+		, systemutveckling (
+		<a href="mailto:edward@utdraget.se">e-post</a>
+		,
+		<a href="http://twitter.com/edwtjo">twitter</a>
+		)
+		<br />
+		-
+		<b>Micael Widell</b>
+		, systemutveckling (
+		<a href="mailto:micke@utdraget.se">e-post</a>
+		,
+		<a href="http://twitter.com/micaelwidell">twitter</a>
+		,
+		<a href="http://micaelwidell.com">blogg</a>
+		)
+		<br />
+		<br />
+		<h2>Kontakt</h2>
+		Kontakta oss på
+		<a href="mailto:feedback@utdraget.se">feedback@utdraget.se</a>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

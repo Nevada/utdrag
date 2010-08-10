@@ -1,0 +1,29 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<h1>Så funkar det</h1>
+		<h3>Utdraget.se - gratis och enkelt</h3>
+		<p>Vårt mål är att vara sveriges enklaste och smidigaste verktyg för
+			att
+			överblicka privatekonomin. Dessutom är allt du gör på utdraget.se helt gratis!
+			Att skaffa ett konto, mata in och kategorisera ett helt års
+			spenderande, få
+			diagram över ditt spenderande samt att skapa en budget för att ta kontroll
+			över
+			dina utgifter går allt på några minuter!</p>
+		<br />
+		<h3>Inmatning och kategorisering</h3>
+		<p>Grunden i Utdraget.se är den automatiska inmatningen och
+			kategoriseringen av
+			transaktioner. Du markerar transaktionerna i kontoutdraget på din internetbank
+			och klistrar in dem på utdraget.se. Transaktionerna läses in och de
+			allra flesta
+			kategoriseras automatiskt med hjälp av dina och andra användares tidigare
+			kategoriseringar. </p>
+
+	</g:HTMLPanel>
+</ui:UiBinder> 

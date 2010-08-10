@@ -7,6 +7,11 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.DeckPanel;
 import com.google.gwt.user.client.ui.ScrollPanel;
 import com.google.gwt.user.client.ui.Widget;
+import com.nevada.utdrag.gwt.scaffold.out.About;
+import com.nevada.utdrag.gwt.scaffold.out.Blogg;
+import com.nevada.utdrag.gwt.scaffold.out.How;
+import com.nevada.utdrag.gwt.scaffold.out.Policy;
+import com.nevada.utdrag.gwt.scaffold.out.Video;
 
 public class Out extends Composite {
 
@@ -17,8 +22,8 @@ public class Out extends Composite {
 	}
 
 	@UiField DeckPanel main;
-//	@UiField Top top;
-//	@UiField Login login;
+	@UiField Top top;
+	@UiField Login login;
 	@UiField ScrollPanel scroller;
 	
 	final int LOGO = 0;
@@ -32,37 +37,37 @@ public class Out extends Composite {
 		
 		scroller.setAlwaysShowScrollBars(true);
 
-//		top.setListener(new Top.Listener() {
-//			public void onLogoClicked() {
-//				main.showWidget(LOGO);
-//			}
-//			public void onHowClicked() {
-//				main.showWidget(HOW);
-//			}
-//			public void onBloggClicked() {
-//				main.showWidget(BLOGG);
-//			}
-//			public void onPolicyClicked() {
-//				main.showWidget(POLICY);
-//			}
-//			public void onAboutClicked() {
-//				main.showWidget(ABOUT);
-//			}
-//		});
+		top.setListener(new Top.Listener() {
+			public void onLogoClicked() {
+				main.showWidget(LOGO);
+			}
+			public void onHowClicked() {
+				main.showWidget(HOW);
+			}
+			public void onBloggClicked() {
+				main.showWidget(BLOGG);
+			}
+			public void onPolicyClicked() {
+				main.showWidget(POLICY);
+			}
+			public void onAboutClicked() {
+				main.showWidget(ABOUT);
+			}
+		});
 
-//		Video v = new Video();
-//		How h = new How();
-//		Blogg b = new Blogg();
-//		Policy p = new Policy();
-//		About a = new About();
-//		main.add(v);
-//		main.add(h);
-//		main.add(b);
-//		main.add(p);
-//		main.add(a);
+		Video v = new Video();
+		How h = new How();
+		Blogg b = new Blogg();
+		Policy p = new Policy();
+		About a = new About();
+		main.add(v);
+		main.add(h);
+		main.add(b);
+		main.add(p);
+		main.add(a);
 		
 		main.setAnimationEnabled(false);
-//		main.showWidget(LOGO);
+		main.showWidget(LOGO);
 	}
 
 }
